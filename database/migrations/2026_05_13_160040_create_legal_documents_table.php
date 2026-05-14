@@ -13,6 +13,12 @@ return new class extends Migration
     {
         Schema::create('legal_documents', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('user_id')->nullable()->constrained()->nullOnDelete();
+            $table->string('title');
+            $table->string('slug')->nullable()->index();
+            $table->string('stored_path')->nullable();
+            $table->string('mime_type')->nullable();
+            $table->unsignedBigInteger('file_size')->nullable();
             $table->timestamps();
         });
     }

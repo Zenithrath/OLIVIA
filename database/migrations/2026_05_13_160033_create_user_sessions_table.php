@@ -13,6 +13,9 @@ return new class extends Migration
     {
         Schema::create('user_sessions', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('user_id')->constrained()->cascadeOnDelete();
+            $table->string('session_token')->unique();
+            $table->timestamp('expires_at')->nullable();
             $table->timestamps();
         });
     }

@@ -13,6 +13,11 @@ return new class extends Migration
     {
         Schema::create('case_laws', function (Blueprint $table) {
             $table->id();
+            $table->string('title');
+            $table->string('court')->nullable();
+            $table->date('decision_date')->nullable();
+            $table->longText('summary')->nullable();
+            $table->text('citation')->nullable();
             $table->timestamps();
         });
     }

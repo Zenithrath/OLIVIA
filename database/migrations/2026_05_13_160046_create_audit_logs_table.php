@@ -13,6 +13,12 @@ return new class extends Migration
     {
         Schema::create('audit_logs', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('user_id')->nullable()->constrained()->nullOnDelete();
+            $table->string('action');
+            $table->string('entity_type')->nullable();
+            $table->unsignedBigInteger('entity_id')->nullable();
+            $table->json('payload')->nullable();
+            $table->string('ip_address', 45)->nullable();
             $table->timestamps();
         });
     }

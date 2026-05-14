@@ -13,6 +13,11 @@ return new class extends Migration
     {
         Schema::create('reports', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('contract_id')->nullable()->constrained()->nullOnDelete();
+            $table->foreignId('user_id')->nullable()->constrained()->nullOnDelete();
+            $table->string('type')->default('analysis');
+            $table->string('file_path')->nullable();
+            $table->string('status')->default('completed');
             $table->timestamps();
         });
     }

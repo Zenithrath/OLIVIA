@@ -13,6 +13,8 @@ return new class extends Migration
     {
         Schema::create('clause_red_flags', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('clause_analysis_id')->constrained('clause_analyses')->cascadeOnDelete();
+            $table->foreignId('red_flag_id')->constrained()->cascadeOnDelete();
             $table->timestamps();
         });
     }

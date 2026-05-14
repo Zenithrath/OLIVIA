@@ -13,6 +13,14 @@ return new class extends Migration
     {
         Schema::create('clause_analyses', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('contract_clause_id')->constrained('contract_clauses')->cascadeOnDelete();
+            $table->foreignId('scan_history_id')->nullable()->constrained('scan_histories')->nullOnDelete();
+            $table->string('status')->default('completed');
+            $table->string('severity')->nullable();
+            $table->decimal('confidence_score', 8, 4)->nullable();
+            $table->longText('analysis');
+            $table->text('legal_basis')->nullable();
+            $table->text('suggestion')->nullable();
             $table->timestamps();
         });
     }

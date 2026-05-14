@@ -13,6 +13,9 @@ return new class extends Migration
     {
         Schema::create('red_flag_patterns', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('red_flag_id')->constrained()->cascadeOnDelete();
+            $table->text('pattern');
+            $table->string('label')->nullable();
             $table->timestamps();
         });
     }

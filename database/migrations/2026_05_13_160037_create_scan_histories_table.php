@@ -13,6 +13,12 @@ return new class extends Migration
     {
         Schema::create('scan_histories', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('contract_id')->constrained()->cascadeOnDelete();
+            $table->foreignId('user_id')->nullable()->constrained()->nullOnDelete();
+            $table->string('status')->default('completed');
+            $table->timestamp('started_at')->nullable();
+            $table->timestamp('finished_at')->nullable();
+            $table->json('meta')->nullable();
             $table->timestamps();
         });
     }

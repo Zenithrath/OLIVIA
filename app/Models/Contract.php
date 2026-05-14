@@ -32,4 +32,9 @@ class Contract extends Model
     {
         return $this->hasMany(ScanHistory::class);
     }
+
+    public function user()
+    {
+        return $this->belongsTo(User::class);
+    }
 }

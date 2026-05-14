@@ -13,6 +13,11 @@ return new class extends Migration
     {
         Schema::create('contract_clauses', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('contract_id')->constrained()->cascadeOnDelete();
+            $table->unsignedInteger('clause_order')->default(0);
+            $table->unsignedInteger('page_number')->nullable();
+            $table->string('clause_title')->nullable();
+            $table->longText('clause_text');
             $table->timestamps();
         });
     }

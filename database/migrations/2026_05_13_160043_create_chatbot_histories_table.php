@@ -13,6 +13,11 @@ return new class extends Migration
     {
         Schema::create('chatbot_histories', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('user_id')->nullable()->constrained()->nullOnDelete();
+            $table->string('session_id')->index();
+            $table->text('question');
+            $table->longText('answer');
+            $table->json('context')->nullable();
             $table->timestamps();
         });
     }

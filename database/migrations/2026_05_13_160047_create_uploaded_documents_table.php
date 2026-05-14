@@ -13,6 +13,11 @@ return new class extends Migration
     {
         Schema::create('uploaded_documents', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('user_id')->nullable()->constrained()->nullOnDelete();
+            $table->string('original_name');
+            $table->string('stored_path');
+            $table->string('mime_type')->nullable();
+            $table->unsignedBigInteger('size_bytes')->nullable();
             $table->timestamps();
         });
     }

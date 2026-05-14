@@ -13,6 +13,10 @@ return new class extends Migration
     {
         Schema::create('user_feedbacks', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('user_id')->constrained()->cascadeOnDelete();
+            $table->foreignId('contract_id')->nullable()->constrained()->nullOnDelete();
+            $table->unsignedTinyInteger('rating');
+            $table->text('comment')->nullable();
             $table->timestamps();
         });
     }

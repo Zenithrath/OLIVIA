@@ -35,4 +35,14 @@ return [
         ],
     ],
 
+    /*
+    | FastAPI AI Legal engine (RAG + ChromaDB + Ollama). Laravel mem-proxy
+    | upload ke service ini; React memanggil endpoint Laravel di bawah /api.
+    */
+    'ai_engine' => [
+        'url' => env('AI_ENGINE_URL', 'http://127.0.0.1:8001'),
+        'timeout' => (int) env('AI_ENGINE_TIMEOUT', 600),
+        'persist_analysis' => filter_var(env('AI_ENGINE_PERSIST_ANALYSIS', 'true'), FILTER_VALIDATE_BOOL),
+    ],
+
 ];
