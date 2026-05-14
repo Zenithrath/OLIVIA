@@ -1,0 +1,85 @@
+REFERENSI HUKUM KONTRAK INDONESIA
+
+=== UU No. 8 Tahun 1999 - Perlindungan Konsumen ===
+
+Pasal 18 ayat (1): Pelaku usaha dilarang membuat atau mencantumkan klausul baku apabila:
+a. Menyatakan pengalihan tanggung jawab pelaku usaha kepada konsumen
+b. Menyatakan bahwa pelaku usaha berhak menolak penyerahan kembali barang
+c. Menyatakan pemberian kuasa dari konsumen kepada pelaku usaha untuk melakukan segala tindakan sepihak
+d. Mengatur pembuktian atas hilangnya kegunaan barang yang merugikan konsumen
+e. Memberi hak pelaku usaha mengurangi manfaat jasa atau harta kekayaan konsumen
+f. Menyatakan tunduknya konsumen kepada aturan baru yang dibuat sepihak pelaku usaha
+g. Menyatakan konsumen memberi kuasa untuk pembebanan hak tanggungan atau gadai secara sepihak
+
+Pasal 18 ayat (2): Klausul baku yang melanggar ketentuan di atas dinyatakan batal demi hukum.
+
+Pasal 19: Pelaku usaha bertanggung jawab memberikan ganti rugi atas kerusakan, pencemaran, dan kerugian konsumen.
+
+Pasal 4: Hak konsumen meliputi:
+- Hak atas kenyamanan, keamanan, dan keselamatan
+- Hak untuk memilih barang/jasa
+- Hak atas informasi yang benar, jelas, dan jujur
+- Hak untuk didengar pendapat dan keluhannya
+- Hak untuk mendapatkan advokasi dan perlindungan
+- Hak untuk diperlakukan secara benar dan jujur
+
+=== KUH Perdata - Hukum Perjanjian ===
+
+Pasal 1320: Syarat sah perjanjian:
+1. Kesepakatan para pihak
+2. Kecakapan untuk membuat perikatan
+3. Suatu hal tertentu
+4. Sebab yang halal
+Jika salah satu syarat tidak terpenuhi maka perjanjian dapat dibatalkan atau batal demi hukum.
+
+Pasal 1337: Suatu sebab adalah terlarang apabila dilarang undang-undang atau bertentangan dengan kesusilaan atau ketertiban umum.
+
+Pasal 1338: Perjanjian yang dibuat secara sah berlaku sebagai undang-undang bagi para pihak. Tidak dapat ditarik kembali selain dengan kesepakatan kedua belah pihak.
+
+Pasal 1339: Perjanjian tidak hanya mengikat untuk hal-hal yang tegas dinyatakan, tetapi juga untuk segala sesuatu yang menurut sifat perjanjian diharuskan oleh kepatutan, kebiasaan, atau undang-undang.
+
+Pasal 1365: Tiap perbuatan melanggar hukum yang membawa kerugian kepada orang lain mewajibkan orang yang karena salahnya menerbitkan kerugian itu untuk menggantikan kerugian tersebut.
+
+Pasal 1266: Syarat batal dianggap selalu dicantumkan dalam perjanjian timbal balik apabila salah satu pihak tidak memenuhi kewajibannya.
+
+=== KLAUSUL TIDAK ADIL - REFERENSI ===
+
+1. KLAUSUL PENGALIHAN RISIKO SEPIHAK
+Contoh: "Perusahaan tidak bertanggung jawab atas segala kerugian yang timbul."
+Masalah: Melanggar Pasal 18 UU Perlindungan Konsumen. Perusahaan mengalihkan semua risiko ke konsumen.
+Status: BERMASALAH
+
+2. KLAUSUL PERUBAHAN HARGA SEPIHAK
+Contoh: "Perusahaan berhak mengubah harga sewaktu-waktu tanpa pemberitahuan."
+Masalah: Melanggar asas konsensualisme Pasal 1320 KUH Perdata. Tidak ada kesepakatan kedua pihak.
+Status: BERMASALAH
+
+3. KLAUSUL PEMBATASAN GANTI RUGI TIDAK WAJAR
+Contoh: "Ganti rugi maksimal yang dapat diklaim adalah Rp 100.000."
+Masalah: Membatasi hak konsumen secara sepihak, melanggar Pasal 19 UU Perlindungan Konsumen.
+Status: BERMASALAH
+
+4. KLAUSUL YURISDIKSI SEPIHAK
+Contoh: "Sengketa diselesaikan di Pengadilan Negeri Jakarta Selatan."
+Masalah: Memberatkan konsumen luar Jakarta, menghalangi akses keadilan.
+Status: PERLU PERHATIAN
+
+5. KLAUSUL PERPANJANGAN OTOMATIS
+Contoh: "Kontrak diperpanjang otomatis kecuali dibatalkan 90 hari sebelumnya."
+Masalah: Konsumen tidak sadar kontrak berjalan terus, berpotensi merugikan.
+Status: PERLU PERHATIAN
+
+6. KLAUSUL KUASA MUTLAK
+Contoh: "Pihak pertama memberi kuasa penuh kepada pihak kedua untuk segala tindakan hukum."
+Masalah: Kuasa mutlak dilarang berdasarkan SEMA No. 7 Tahun 2012.
+Status: BERMASALAH
+
+7. KLAUSUL FORCE MAJEURE TERLALU LUAS
+Contoh: "Perusahaan tidak bertanggung jawab atas keterlambatan karena sebab apapun."
+Masalah: Force majeure tidak boleh mencakup kelalaian sendiri.
+Status: BERMASALAH
+
+8. KLAUSUL DENDA TIDAK PROPORSIONAL
+Contoh: "Keterlambatan pembayaran dikenakan denda 10% per hari."
+Masalah: Denda tidak proporsional dan memberatkan satu pihak secara berlebihan.
+Status: BERMASALAH

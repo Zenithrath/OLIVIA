@@ -1,0 +1,15 @@
+langchain
+langchain-community
+langchain-core
+langchain-classic
+langchain-ollama
+langchain-text-splitters
+langchain-chroma
+
+chromadb
+pypdf
+python-docx
+
+fastapi
+uvicorn
+python-multipart
